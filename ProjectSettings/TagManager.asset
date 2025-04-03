@@ -4,9 +4,13 @@
 TagManager:
   serializedVersion: 3
   tags:
+<<<<<<< HEAD
   - Enemy
   - coinCollectable
   - potionCollectable
+=======
+  - Ground
+>>>>>>> 7a890bb1a5fbb4acd2f576c5a23f70bf932dcf7a
   layers:
   - Default
   - TransparentFX
