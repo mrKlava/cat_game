@@ -19,11 +19,14 @@ public class CatMovementScript : MonoBehaviour
     void Start()
     {
         // get cat's rb
-        rb = GetComponent<Rigidbody2D>();
+        rb = gameObject.GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
+
+        Debug.Log(moveInput);
+
         // check for inputs each frame
         MoveHorizontal();
         MoveVertical();
