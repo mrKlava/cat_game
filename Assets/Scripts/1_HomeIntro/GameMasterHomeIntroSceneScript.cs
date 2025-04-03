@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GameMasterSceneOneScript : MonoBehaviour
+public class GameMasterHomeIntroSceneScript : MonoBehaviour
 {
     private bool isCatAnimation = false;
     private bool isTextAnimation = false;

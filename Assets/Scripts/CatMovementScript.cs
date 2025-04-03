@@ -4,7 +4,7 @@ public class CatMovementScript : MonoBehaviour
 {
     // settings
     [Header("Movement Settings")]
-    public float jumpForce = 5f;
+    public float jumpForce = 6f;
     public float moveSpeed = 5f;
 
     // states

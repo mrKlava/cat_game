@@ -1,18 +1,18 @@
 using UnityEngine;
 
-public class CatAnimationSceneOneScript : MonoBehaviour
+public class CatAnimationHomeIntroSceneScript : MonoBehaviour
 {
     public float jumpForce = 8f;
     public float moveSpeed = 5f;
 
-    private GameMasterSceneOneScript gm;
+    private GameMasterHomeIntroSceneScript gm;
     private Rigidbody2D rb;
 
     private bool isJumped = false;
 
     void Start()
     {
-        gm = FindAnyObjectByType<GameMasterSceneOneScript>();
+        gm = FindAnyObjectByType<GameMasterHomeIntroSceneScript>();
         rb = GetComponent<Rigidbody2D>();
     }
 

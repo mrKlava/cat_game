@@ -2,20 +2,20 @@ using UnityEngine;
 using TMPro;
 using NUnit.Framework.Internal;
 
-public class DialogScript : MonoBehaviour
+public class DialogBbqSceneScript : MonoBehaviour
 {
 
     private TextMeshProUGUI dialog;
     private RectTransform rectTransform;
 
-    private GameMasterSceneOneScript gm;
+    private GameMasterBbqSceneScript gm;
  
     void Start()
     {
         dialog = GetComponent<TextMeshProUGUI>();
         rectTransform = GetComponent<RectTransform>();
 
-        gm = FindAnyObjectByType<GameMasterSceneOneScript>();
+        gm = FindAnyObjectByType<GameMasterBbqSceneScript>();
 
         gm.setIsTextAnimation(true);
     }
@@ -27,12 +27,16 @@ public class DialogScript : MonoBehaviour
 
         rectTransform.transform.position = new Vector2(pos.x, pos.y + 0.01f);
 
-        if (pos.y > 17)
+
+        Debug.Log(pos.y);
+
+
+        if (pos.y > 9)
         {
             gm.setIsCatAnimation(true);
         }
 
-        if (pos.y > 23)
+        if (pos.y > 15)
         {
             gm.setIsTextAnimation(false);
         }
