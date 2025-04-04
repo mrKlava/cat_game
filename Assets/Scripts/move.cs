@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 
@@ -19,6 +20,8 @@ public class move : MonoBehaviour
         btnA.onClick.AddListener(Jump);
         btnB.onClick.AddListener(Attack);
         //joy = GetComponent<Joystick>();
+
+     
     }
 
     private void FixedUpdate()

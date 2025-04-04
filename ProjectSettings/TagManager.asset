@@ -3,6 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
+<<<<<<< HEAD
   tags:
 <<<<<<< HEAD
   - Enemy
@@ -16,6 +17,9 @@ TagManager:
 =======
 >>>>>>> 7a890bb1a5fbb4acd2f576c5a23f70bf932dcf7a
 >>>>>>> d187ace944c2b4c590437b40cf05dbbf46e03c98
+=======
+  tags: []
+>>>>>>> integratingGUI
   layers:
   - Default
   - TransparentFX
