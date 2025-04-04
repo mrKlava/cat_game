@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class coinsGain : MonoBehaviour
 {
     public playerCoins pCoins;
-    public GameObject coinSprite;
+    //public GameObject coinSprite;
     public int coinValue;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

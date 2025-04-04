@@ -3,7 +3,7 @@ using UnityEngine;
 public class healthGain : MonoBehaviour
 {
     public playerHealth pHealth;
-    public GameObject potionSprite;
+    //public GameObject potionSprite;
     public int healthBonus;
     public bool isTrigger = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
