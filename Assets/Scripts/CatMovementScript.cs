@@ -24,9 +24,6 @@ public class CatMovementScript : MonoBehaviour
 
     void Update()
     {
-
-        Debug.Log(moveInput);
-
         // check for inputs each frame
         MoveHorizontal();
         MoveVertical();
