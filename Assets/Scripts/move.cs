@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class move : MonoBehaviour
 {
     public float moveSpeed = 10f;
-    public float jumpForce = 5f;
+    public float jumpForce = 9f;
     public Button A;
     public Button B;
     private Rigidbody2D rb;
