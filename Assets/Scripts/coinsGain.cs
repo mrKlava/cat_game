@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class coinsGain : MonoBehaviour
 {
     public playerCoins pCoins;
+    public Lerp_Follow_Script lerpCollect;
     //public GameObject coinSprite;
     public int coinValue;
 
@@ -18,21 +19,21 @@ public class coinsGain : MonoBehaviour
     {
         
     }
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            
+            lerpCollect.isCollected = true;
             pCoins.currentCoins += coinValue;
-            DestroyGameObject();
+            //DestroyGameObject();
             
         }
         Debug.Log("Coin obtained ! Coin value: " + coinValue);
     }
 
-    void DestroyGameObject()
-    {
-        // Kills the game object in X seconds after loading the object
-        Destroy(gameObject);
-    }
+    //void DestroyGameObject()
+    //{
+    //    // Kills the game object in X seconds after loading the object
+    //    Destroy(gameObject);
+    //}
 }

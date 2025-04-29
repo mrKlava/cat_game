@@ -13,9 +13,9 @@ public class CatMovementScript : MonoBehaviour
     public JoystickScript joy;
 
     // states
-    private bool isJumping;
-    private bool isAttacking;
-    private bool isMoving;
+    public bool isJumping;
+    public bool isAttacking;
+    public bool isMoving;
 
     private float moveInput;
 
