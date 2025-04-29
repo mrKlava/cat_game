@@ -22,10 +22,11 @@ public class Lerp_Follow_Script : MonoBehaviour
 
             transform.position = Vector3.Lerp(startPosition, targetEndPosition.position, percentageComplete);
 
-            // Optional: Destroy or disable after reaching the target
+            //Destroy or disable after reaching the target
             if (percentageComplete >= 1f)
             {
-                Destroy(gameObject); // or disable it: gameObject.SetActive(false);
+                Destroy(gameObject); //desroying
+                //gameObject.SetActive(false); //disabling
             }
         }
     }
