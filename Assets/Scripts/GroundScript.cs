@@ -2,19 +2,10 @@ using UnityEngine;
 
 public class GroundScript : MonoBehaviour
 {
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Cat")
+        // check if player is on the ground
+        if (collision.gameObject.tag == "Player")
         {
             Debug.Log("Cat on the Ground");
         }

@@ -4,6 +4,27 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/1_Home.unity
+    guid: d4443f39d63f80042b5d77162353b0e9
+  - enabled: 1
+    path: Assets/Scenes/2_GardenDay.unity
+    guid: eaf9bed052ec5ec46b468d7344e7ae89
+  - enabled: 1
+    path: Assets/Scenes/3_Bbq.unity
+    guid: 57884299c97030842aa32015153742e3
+  - enabled: 1
+    path: Assets/Scenes/4_GardenNight.unity
+    guid: e9a5c310633f3f74ea731b02117a99c6
+  - enabled: 1
+    path: Assets/Scenes/5_Boss.unity
+    guid: c41168810da7b394eadcd313c9e330c4
+  - enabled: 1
+    path: Assets/Scenes/6_HomeReturn.unity
+    guid: 05aa46d0c4771214eb7d2e39ed518743
+  - enabled: 1
+    path: Assets/Scenes/0_MainMenu.unity
+    guid: 938f5636204c33e459b70be9c66080d1
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
